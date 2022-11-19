@@ -1,0 +1,28 @@
+{
+	"AS_Button_ja58bd334fd849888a4b32145c8917e3": {
+		"id": "AS_Button_ja58bd334fd849888a4b32145c8917e3",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": null,
+			"KUID": "b9bbda88cc9c4591affff6df781b1838",
+			"name": "frmTime"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET__d405ff278baa4dc4b907812712954474",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "//To schedule a timer to display an alert after 3 seconds use the below snippet.\nkony.timer.schedule(\"timer4\",this.generateAlert, 3, true);\n",
+				"parentId": null,
+				"callbackType": null
+			}
+		]
+	}
+}

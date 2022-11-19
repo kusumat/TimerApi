@@ -1,0 +1,18 @@
+{
+    "models": {
+        "mobile": {
+            "class": "GraphLinksModel",
+            "linkDataArray": [],
+            "nodeDataArray": [
+                {
+                    "formKUID": "b9bbda88cc9c4591affff6df781b1838",
+                    "formName": "frmTime",
+                    "isStartupForm": true,
+                    "key": "b9bbda88cc9c4591affff6df781b1838",
+                    "loc": "8 24.845263671875003",
+                    "thumbnailURL": null
+                }
+            ]
+        }
+    }
+}

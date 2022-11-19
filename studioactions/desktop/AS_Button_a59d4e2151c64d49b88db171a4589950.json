@@ -1,0 +1,27 @@
+{
+	"AS_Button_a59d4e2151c64d49b88db171a4589950": {
+		"id": "AS_Button_a59d4e2151c64d49b88db171a4589950",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": null,
+			"KUID": "ibe147389fc54818b3a5fbe530c9bf07",
+			"name": "frmTime"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "ADD_SNIPPET_ide_onClick_ad89b43bc0014e41a2f0bb060442ba96",
+				"type": "ADD_SNIPPET",
+				"codeSnippet": "//To set a callback function for a scheduled timer, use the below code snippet.\nkony.timer.setCallBack(\"timer4\", this.callbackfunction);\n",
+				"callbackType": null
+			}
+		]
+	}
+}

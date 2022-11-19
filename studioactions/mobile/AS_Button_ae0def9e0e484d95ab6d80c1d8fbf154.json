@@ -1,0 +1,32 @@
+{
+	"AS_Button_ae0def9e0e484d95ab6d80c1d8fbf154": {
+		"id": "AS_Button_ae0def9e0e484d95ab6d80c1d8fbf154",
+		"type": "ACTION_SEQUENCE",
+		"params": [
+			{
+				"datatype": "collection",
+				"name": "eventobject"
+			}
+		],
+		"contextObj": {
+			"type": "forms",
+			"platform": null,
+			"KUID": "b9bbda88cc9c4591affff6df781b1838",
+			"name": "frmTime"
+		},
+		"language": "js",
+		"actions": [
+			{
+				"id": "INVOKE_FUNCTION___ade7b87d96494815bf6ca71f44cccad7",
+				"type": "INVOKE_FUNCTION",
+				"sequenceKUID": "cancelTimer",
+				"display": "cancelTimer",
+				"inputparams": [],
+				"parentId": null,
+				"callbackType": null,
+				"disabled": null,
+				"source": "controller"
+			}
+		]
+	}
+}
